@@ -1,7 +1,5 @@
+import Layout from "@/components/Layout/Layout";
 import Head from "next/head";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -13,7 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>asd</div>
+        <Layout>
+          <div className="flex flex-col h-full bg-slate-800 p-4 text-white">
+            <h1 className="text-4xl font-mono">
+              Learning Frontend Development
+            </h1>
+            <h2 className="font-mono">
+              This is the place for you to learn all Frontend Development
+            </h2>
+          </div>
+        </Layout>
       </main>
     </>
   );
