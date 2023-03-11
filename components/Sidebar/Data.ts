@@ -9,7 +9,7 @@ export const menuData = [
     subMenu: [
       {
         subTitle: "Getting Started",
-        subHref: "/Next/Static-Routing",
+        subHref: "/docs/Static-Routing",
       },
     ],
   },

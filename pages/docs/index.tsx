@@ -1,3 +1,4 @@
+import { GetStaticProps } from "next";
 import * as React from "react";
 
 export interface IDocsProps {}
